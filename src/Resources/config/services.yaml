@@ -1,0 +1,4 @@
+services:
+  nhc_random.random:
+    class: NguyenHoaiChuong\RandomBundle\Service\RandomGenerator
+    public: true

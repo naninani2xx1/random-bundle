@@ -1,0 +1,23 @@
+{
+    "name": "nguyenhoaichuong/random-bundle",
+    "description": "Random number/string generator for Symfony",
+    "type": "symfony-bundle",
+    "require": {
+        "php": ">=7.2",
+        "symfony/framework-bundle": "5.4.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "NguyenHoaiChuong\\RandomBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "naninani2xx1",
+            "email": "nhchuong2001@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "version": "1.0.0"
+}
