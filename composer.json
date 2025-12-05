@@ -18,6 +18,5 @@
             "email": "nhchuong2001@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "version": "1.0.0"
+    "minimum-stability": "stable"
 }
