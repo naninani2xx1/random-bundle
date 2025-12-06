@@ -1,4 +1,12 @@
 services:
-  nhc_random.random:
+  nhc.random_generator:
     class: NguyenHoaiChuong\RandomBundle\Service\RandomGenerator
-    public: true
+    # ...
+
+    # but this fixes it!
+    # the "app.rot13.transformer" service will be injected when
+    # an App\Util\Rot13Transformer type-hint is detected
+  #App\Util\Rot13Transformer: '@app.rot13.transformer'
+
+  #NguyenHoaiChuong\RandomBundle\Service\RandomGenerator: ~
+  NguyenHoaiChuong\RandomBundle\Service\RandomGenerator: '@nhc.random_generator'
